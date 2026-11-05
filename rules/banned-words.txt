@@ -1,0 +1,15 @@
+# Words and phrases that make a legal claim. No worker-facing text on the
+# public site may use them: it links to the official page instead.
+# One per line. Matching ignores capital letters and curly quotes, and only
+# matches whole words. Lines starting with # are notes.
+protected
+unprotected
+illegal
+unlawful
+you have the right to
+you have a right to
+they can't
+they cannot
+can't fire
+cannot fire
+guaranteed

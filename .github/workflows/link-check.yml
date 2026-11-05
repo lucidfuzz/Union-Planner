@@ -1,0 +1,41 @@
+# Runs the link checker every Monday morning, and whenever someone presses
+# "Run workflow" on GitHub. If any link needs a person, the run fails and
+# GitHub emails the repository owner.
+#
+# Uses only GitHub's own actions (checkout, setup-python) and Python's
+# built-in tools. No extra packages.
+name: Weekly link check
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # Mondays 13:00 UTC = 8 or 9 AM New York time
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test the library and the checker
+        run: python -m unittest discover -s tests -v
+      - name: Check every official page
+        run: python tools/check_links.py
+      - name: Show this week's page fingerprints (copy into links/baseline.json to accept them)
+        if: always()
+        run: cat links/baseline.json
+      - name: Keep the report for a person to read
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-report
+          path: |
+            links/REPORT.md
+            links/link-status.json
+            links/baseline.json

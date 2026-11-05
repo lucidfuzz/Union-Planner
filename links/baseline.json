@@ -1,0 +1,97 @@
+{
+  "alrb-home": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "fb78d7e2b36e2256"
+  },
+  "dol-whd-contact": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "4e7e9e1b7d709759"
+  },
+  "ewoc-home": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "20a2f53602511ebb"
+  },
+  "ewoc-support": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "467d6005bdc4134c"
+  },
+  "flra-contact": {
+    "method": "snapshot:firecrawl",
+    "saved_on": "2026-11-05",
+    "value": "9484f24d33d34a1d"
+  },
+  "flra-home": {
+    "method": "snapshot:firecrawl",
+    "saved_on": "2026-11-05",
+    "value": "c065707625e76fdb"
+  },
+  "nlrb-charges": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "16a55817ad4e35ef"
+  },
+  "nlrb-concerted-activity": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "6bbfbb80a3032fb1"
+  },
+  "nlrb-contact": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "03b5910c5c185940"
+  },
+  "nlrb-discrimination": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "6a9a55a35a47114a"
+  },
+  "nlrb-elections": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "723885b6ef3b3564"
+  },
+  "nlrb-employee-rights": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "b0f42d0fc09f0c6e"
+  },
+  "nlrb-interfering": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "c717566af6db784e"
+  },
+  "nlrb-jurisdiction": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "a210f7583d1da8fa"
+  },
+  "nlrb-nlra-text": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "e6db114e299ee823"
+  },
+  "nlrb-regional-offices": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "13236e3b8690b68c"
+  },
+  "nmb-home": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "ac49129fbfcf7d75"
+  },
+  "osha-complaint": {
+    "method": "snapshot:firecrawl",
+    "saved_on": "2026-11-05",
+    "value": "816f5700a8870db9"
+  },
+  "usagov-nmb": {
+    "method": "direct",
+    "saved_on": "2026-11-05",
+    "value": "b1e456bed6866183"
+  }
+}

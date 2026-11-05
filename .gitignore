@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+links/REPORT.md
+links/link-status.json

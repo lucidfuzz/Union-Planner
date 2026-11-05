@@ -1,0 +1,613 @@
+{
+  "about": "The link library. Every official page the public site links to comes from this file, so fixing an address here fixes it everywhere. A person re-reads each page at least every 90 days; the weekly checker watches in between. Run tests after any edit.",
+  "official_domains": [
+    {
+      "domain": "nlrb.gov",
+      "who": "National Labor Relations Board, a federal agency"
+    },
+    {
+      "domain": "nmb.gov",
+      "who": "National Mediation Board, a federal agency"
+    },
+    {
+      "domain": "flra.gov",
+      "who": "Federal Labor Relations Authority, a federal agency"
+    },
+    {
+      "domain": "dol.gov",
+      "who": "U.S. Department of Labor"
+    },
+    {
+      "domain": "osha.gov",
+      "who": "Occupational Safety and Health Administration, part of the Labor Department"
+    },
+    {
+      "domain": "usa.gov",
+      "who": "USAGov, the federal government's official guide, run by the General Services Administration"
+    },
+    {
+      "domain": "alrb.ca.gov",
+      "who": "California Agricultural Labor Relations Board, a state agency"
+    },
+    {
+      "domain": "workerorganizing.org",
+      "who": "Emergency Workplace Organizing Committee, a volunteer organizing project of the UE union and DSA. Not government: listed as a free organizer hotline, as the plan allows"
+    }
+  ],
+  "worker_types": [
+    "private",
+    "rail-air",
+    "federal",
+    "state-local-public",
+    "farm",
+    "all"
+  ],
+  "state_codes": [
+    "AL",
+    "AK",
+    "AZ",
+    "AR",
+    "CA",
+    "CO",
+    "CT",
+    "DE",
+    "DC",
+    "FL",
+    "GA",
+    "HI",
+    "ID",
+    "IL",
+    "IN",
+    "IA",
+    "KS",
+    "KY",
+    "LA",
+    "ME",
+    "MD",
+    "MA",
+    "MI",
+    "MN",
+    "MS",
+    "MO",
+    "MT",
+    "NE",
+    "NV",
+    "NH",
+    "NJ",
+    "NM",
+    "NY",
+    "NC",
+    "ND",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VT",
+    "VA",
+    "WA",
+    "WV",
+    "WI",
+    "WY"
+  ],
+  "links": [
+    {
+      "id": "nlrb-employee-rights",
+      "topic": "Organizing and joining a union",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/employee-rights",
+      "covers": "The NLRB's own summary of what workers can do together, with or without a union, and who its law covers.",
+      "check": {
+        "title_contains": "Employee Rights",
+        "key_sentence": "Most employees in the private sector are covered by the NLRA."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-interfering",
+      "topic": "Threats, questioning, spying or promises from a boss",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/interfering-with-employee-rights-section-7-8a1",
+      "covers": "The NLRB's list of employer actions it treats as interfering with organizing, with examples.",
+      "check": {
+        "title_contains": "Interfering with employee rights",
+        "key_sentence": "It is unlawful for an employer to interfere with, restrain, or coerce employees in the exercise of their rights."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-discrimination",
+      "topic": "Punished or fired after union activity",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/discriminating-against-employees-because-of-their-union",
+      "covers": "The NLRB's page on firing, discipline or other punishment linked to union activity.",
+      "check": {
+        "title_contains": "Discriminating against employees",
+        "key_sentence": "employers may not discharge, lay off, or discipline employees"
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-concerted-activity",
+      "topic": "Acting together without a union",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/our-enforcement-activity/protected-concerted-activity",
+      "covers": "Real NLRB cases where coworkers acted together on pay, safety or conditions, and what happened.",
+      "check": {
+        "title_contains": "Protected Concerted Activity",
+        "key_sentence": "A construction contractor fired five employees after several of them appeared in a YouTube video complaining of hazardous working conditions."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-elections",
+      "topic": "Holding a union election",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/about-nlrb/what-we-do/conduct-elections",
+      "covers": "How the NLRB runs a union election, from the petition to the vote.",
+      "check": {
+        "title_contains": "Conduct Elections",
+        "key_sentence": "To start the election process, a petition and associated documents must be filed"
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-charges",
+      "topic": "Filing a complaint about the employer",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/about-nlrb/what-we-do/investigate-charges",
+      "covers": "How a charge against an employer is filed and investigated by the NLRB.",
+      "check": {
+        "title_contains": "Investigate Charges",
+        "key_sentence": "Each charge is investigated by Board agents who gather evidence and may take affidavits from parties and witnesses."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-regional-offices",
+      "topic": "Finding your NLRB regional office",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/about-nlrb/who-we-are/regional-offices",
+      "covers": "A map and list of NLRB regional offices with their addresses and phone numbers.",
+      "check": {
+        "title_contains": "Regional Offices",
+        "key_sentence": "The National Labor Relations Board has 26 regional offices and is headquartered in Washington, DC."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-jurisdiction",
+      "topic": "Is my employer too small for the NLRB?",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/jurisdictional-standards",
+      "covers": "The NLRB's size rules for which businesses it handles, by type of business.",
+      "check": {
+        "title_contains": "Jurisdictional Standards",
+        "key_sentence": "The Board has statutory jurisdiction over private sector employers whose activity in interstate commerce exceeds a minimal level."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-nlra-text",
+      "topic": "The law itself",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/guidance/key-reference-materials/national-labor-relations-act",
+      "covers": "The full text of the National Labor Relations Act, for anyone who wants the source.",
+      "check": {
+        "title_contains": "National Labor Relations Act",
+        "key_sentence": "In 1935, Congress passed the National Labor Relations Act"
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB: Contact Us",
+        "url": "https://www.nlrb.gov/contact-us",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nlrb-contact",
+      "topic": "Talk to a person at the NLRB",
+      "agency": "National Labor Relations Board (NLRB)",
+      "source_type": "government",
+      "worker_types": [
+        "private"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.nlrb.gov/contact-us",
+      "covers": "The NLRB's phone line and email for general questions, with a Spanish option.",
+      "check": {
+        "title_contains": "Contact Us | National Labor Relations Board",
+        "key_sentence": "Inquiries about cases pending at a Regional Office generally should be directed to that office.",
+        "phone": "1-844-762-6572"
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "NLRB regional offices",
+        "url": "https://www.nlrb.gov/about-nlrb/who-we-are/regional-offices",
+        "phone": "1-844-762-6572"
+      }
+    },
+    {
+      "id": "nmb-home",
+      "topic": "Railroad or airline jobs",
+      "agency": "National Mediation Board (NMB)",
+      "source_type": "government",
+      "worker_types": [
+        "rail-air"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://nmb.gov/NMB_Application/",
+      "covers": "The federal board that handles union questions for railroad and airline workers.",
+      "check": {
+        "title_contains": "National Mediation Board",
+        "key_sentence": "The National Mediation Board helps to maintain the flow of interstate commerce in the airline and railway industries"
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "USAGov: National Mediation Board contact details",
+        "url": "https://www.usa.gov/agencies/national-mediation-board"
+      }
+    },
+    {
+      "id": "usagov-nmb",
+      "topic": "National Mediation Board contact details",
+      "agency": "USAGov (U.S. General Services Administration)",
+      "source_type": "government",
+      "worker_types": [
+        "rail-air"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.usa.gov/agencies/national-mediation-board",
+      "covers": "The federal government's directory entry for the National Mediation Board, with its contact details.",
+      "check": {
+        "title_contains": "National Mediation Board (NMB)",
+        "key_sentence": "The National Mediation Board (NMB) facilitates the resolution of labor-management disputes in the rail and airline industries."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "National Mediation Board website",
+        "url": "https://nmb.gov/NMB_Application/"
+      }
+    },
+    {
+      "id": "flra-home",
+      "topic": "Federal government jobs",
+      "agency": "Federal Labor Relations Authority (FLRA)",
+      "source_type": "government",
+      "worker_types": [
+        "federal"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.flra.gov/",
+      "covers": "The federal agency that handles union questions for most federal government workers.",
+      "check": {
+        "title_contains": "Federal Labor Relations Authority",
+        "key_sentence": "The FLRA is an independent administrative federal agency that administers the labor-management relations program for federal employees worldwide.",
+        "blocks_checker": true
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2026-12-05",
+      "backup": {
+        "label": "FLRA: Contact Us",
+        "url": "https://www.flra.gov/contact",
+        "phone": "771-444-5801"
+      }
+    },
+    {
+      "id": "flra-contact",
+      "topic": "Talk to a person at the FLRA",
+      "agency": "Federal Labor Relations Authority (FLRA)",
+      "source_type": "government",
+      "worker_types": [
+        "federal"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.flra.gov/contact",
+      "covers": "The FLRA's contact page, with its main information line and which office handles what.",
+      "check": {
+        "title_contains": "Contact Us | U.S. Federal Labor Relations Authority",
+        "key_sentence": "please contact us at our headquarters location for general information",
+        "phone": "771-444-5801",
+        "blocks_checker": true
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2026-12-05",
+      "backup": {
+        "label": "FLRA main information line",
+        "phone": "771-444-5801"
+      }
+    },
+    {
+      "id": "alrb-home",
+      "topic": "California farm work",
+      "agency": "California Agricultural Labor Relations Board (ALRB)",
+      "source_type": "government",
+      "worker_types": [
+        "farm"
+      ],
+      "states": [
+        "CA"
+      ],
+      "url": "https://www.alrb.ca.gov/",
+      "covers": "California's board for farmworker organizing, in English and Spanish.",
+      "check": {
+        "title_contains": "ALRB",
+        "key_sentence": "All farmworkers, unions, and agricultural employers are covered by the Agricultural Labor Relations Act.",
+        "phone": "1-800-449-3699"
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "ALRB toll-free line",
+        "phone": "1-800-449-3699"
+      }
+    },
+    {
+      "id": "dol-whd-contact",
+      "topic": "Unpaid wages or overtime",
+      "agency": "U.S. Department of Labor, Wage and Hour Division",
+      "source_type": "government",
+      "worker_types": [
+        "all"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.dol.gov/agencies/whd/contact",
+      "covers": "How to reach the Labor Department about pay, overtime and similar wage problems.",
+      "check": {
+        "title_contains": "Contact Us | U.S. Department of Labor",
+        "key_sentence": "Call the Wage and Hour Division's toll-free help line",
+        "phone": "1-866-487-9243"
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "Wage and Hour Division toll-free line",
+        "phone": "1-866-487-9243"
+      }
+    },
+    {
+      "id": "osha-complaint",
+      "topic": "An unsafe workplace",
+      "agency": "Occupational Safety and Health Administration (OSHA)",
+      "source_type": "government",
+      "worker_types": [
+        "all"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://www.osha.gov/workers/file-complaint",
+      "covers": "How to file a safety complaint with OSHA, online, by phone or by letter.",
+      "check": {
+        "title_contains": "File a Complaint",
+        "key_sentence": "Submit your oral or written complaint in any language.",
+        "phone": "800-321-6742",
+        "blocks_checker": true
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2026-12-05",
+      "backup": {
+        "label": "OSHA toll-free line",
+        "phone": "800-321-6742"
+      }
+    },
+    {
+      "id": "ewoc-support",
+      "topic": "Free help from a volunteer organizer",
+      "agency": "Emergency Workplace Organizing Committee (EWOC)",
+      "source_type": "organizer-hotline",
+      "worker_types": [
+        "all"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://workerorganizing.org/support/",
+      "covers": "EWOC's request form. It asks for contact details so a volunteer organizer can reach out.",
+      "check": {
+        "title_contains": "Get Support",
+        "key_sentence": "A trained volunteer will reach out to you within 48 hours to get more details from you."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "EWOC home page",
+        "url": "https://workerorganizing.org/"
+      }
+    },
+    {
+      "id": "ewoc-home",
+      "topic": "About EWOC's volunteer organizers",
+      "agency": "Emergency Workplace Organizing Committee (EWOC)",
+      "source_type": "organizer-hotline",
+      "worker_types": [
+        "all"
+      ],
+      "states": [
+        "ALL"
+      ],
+      "url": "https://workerorganizing.org/",
+      "covers": "Who EWOC is and how its volunteer organizers work with coworkers.",
+      "check": {
+        "title_contains": "EWOC",
+        "key_sentence": "Connect with a workplace organizer to learn how you and your co-workers can improve your working conditions."
+      },
+      "checked_on": "2026-11-05",
+      "checked_by": "web reader, not yet a person",
+      "checked_by_person": false,
+      "recheck_by": "2027-02-03",
+      "backup": {
+        "label": "EWOC request form",
+        "url": "https://workerorganizing.org/support/"
+      }
+    }
+  ]
+}
